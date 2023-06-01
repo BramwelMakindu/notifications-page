@@ -99,7 +99,7 @@ p{
 
 .unread{
     color: hsl(1, 90%, 64%) !important;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .first:hover{
@@ -132,6 +132,14 @@ p{
 }
 
 .message.active{
+    display: none;
+}
+
+.new.active{
+    background-color: unset;
+}
+
+.new.active .unread{
     display: none;
 }
 
